@@ -9,7 +9,7 @@ COPY pom.xml /uservault
 # Instala o Maven
 RUN apk --no-cache add maven
 
-RUN mvn -f /uservault/pom.xml clean package
+RUN mvn clean package
 #
 # Package stage
 #
