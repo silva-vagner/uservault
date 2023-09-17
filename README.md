@@ -117,7 +117,7 @@ Senha: password
 
 - Auditor (Auditor)
 ```
-Email: audit@email
+Email: auditor@email
 Senha: password
 ```
 
