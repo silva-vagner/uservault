@@ -4,8 +4,12 @@
 FROM openjdk:17-alpine AS build
 COPY src /uservault/src
 COPY pom.xml /uservault
-RUN mvn -f /uservault/pom.xml clean package
+# RUN mvn -f /uservault/pom.xml clean package
 
+# Instala o Maven
+RUN apk --no-cache add maven
+
+RUN mvn -f /uservault/pom.xml clean package
 #
 # Package stage
 #
