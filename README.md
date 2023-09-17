@@ -11,6 +11,7 @@ UserVault é um projeto Java com Spring que oferece funcionalidades de autentica
 - [Como Iniciar](#como-iniciar)
 - [Uso com o Swagger](#uso-com-o-swagger)
 - [Uso com o Postman](#uso-com-o-postman)
+- [Acesso à Implantação e Deploy da Aplicação](acesso-e-deploy)
 - [Usuários de Teste](#usuarios-de-teste)
 ##
 ### Tecnologias e Recursos Destacados <a name="tecnologias-e-recursos-destacados"></a>
@@ -99,6 +100,13 @@ Para facilitar ainda mais o teste da API, você pode importar a coleção do Pos
 - Execute a solicitação na pasta de autenticação para obter um token JWT, inserindo os detalhes de autenticação (nome de usuário e senha).
 
 Não é necessário atualizar as requisições com o Token JWT retornado, o arquivo possui um script que automatiza esse processo.
+##
+
+### Acesso à Implantação e Deploy da Aplicação <a name="acesso-e-deploy"></a>
+
+A versão mais recente deste projeto foi implantada e está pronta para uso. Você pode acessar o deploy da aplicação no seguinte link:
+
+[UserVault - Acesse o Deploy da Aplicação]([https://example.com/uservault](https://user-vault-production.up.railway.app/swagger-ui/index.html#/))
 ##
 ### Usuários de Teste <a name="usuarios-de-teste"></a>
 Os seguintes usuários de teste estão disponíveis para facilitar o teste das funcionalidades do sistema sem a necessidade de registro, eles são carregados no banco de dados quando a aplicação faz a primeira execução. Lembre-se que o usuário admin pode criar qualquer tipo de usuário.
