@@ -90,7 +90,7 @@ Para acessar os endpoints protegidos, obtenha um token JWT válido:
 Para facilitar ainda mais o teste da API, você pode importar a coleção do Postman que inclui solicitações pré-configuradas para todas as funcionalidades. Siga estas etapas:
 
 - Baixe a coleção do Postman aqui: UserVault API Collection.
-[Download da Coleção do Postman](https://github.com/silva-vagner/uservault/blob/6ca8316a52972b8c13f4a7a9167b1627e78b67ab/postman/UserVault.postman_collection.json)
+[Download da Coleção do Postman](https://github.com/silva-vagner/uservault/blob/master/postman/UserVault.postman_collection.json)
 
 
 - Abra o Postman e clique em "Import" (Importar) na parte superior esquerda.
